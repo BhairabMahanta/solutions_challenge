@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "24961272906",
+    "project_id": "climatesolution-48ea6",
+    "storage_bucket": "climatesolution-48ea6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24961272906:android:1be00e735000bc6fcf2ab3",
+        "android_client_info": {
+          "package_name": "com.example.solution"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGIFLI-5fhYltT2XGkj9j1-SKmvgU90cU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
