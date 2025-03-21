@@ -1,3 +1,5 @@
+Here's your **updated README** with simplified setup instructions, emphasizing that **no extra Firebase setup is needed** since open keys are used. 🚀
+
 ---
 
 # 🌱 **New Solution - Climate Awareness App**
@@ -9,8 +11,8 @@ A **Flutter-powered climate awareness app** that makes sustainability a daily ha
 ✅ Gamified Eco-Health Quests  
 ✅ Personalized AI Chatbot with GHG Insights  
 ✅ Dynamic Weather Alerts in a Scroll Design  
-✅ Realtime Database Integration (Firebase)  
-✅ Task-Based Health Tech for Sustainability
+✅ Task-Based Health Tech for Sustainability  
+✅ Firebase Realtime Database with Open Keys (No Setup Required)
 
 ---
 
@@ -36,12 +38,13 @@ new_solution/
 
 ### **1️⃣ Prerequisites**
 
-Ensure you have the following installed:
+Make sure you have:
 
 - **Flutter SDK**: [Install Here](https://docs.flutter.dev/get-started/install)
 - **Dart**
 - **Android Studio or VS Code**
-- **Firebase Account** (for auth & database)
+
+That's it! No need to set up Firebase—we're using open keys for simplicity.
 
 ---
 
@@ -54,33 +57,18 @@ git clone https://github.com/your-username/new_solution.git
 cd new_solution
 ```
 
-#### **Install Dependencies**
-
-```bash
-flutter pub get
-```
-
-#### **Configure Firebase**
-
-1. Go to [Firebase Console](https://console.firebase.google.com/).
-2. Create a new project & enable **Realtime Database**.
-3. Download `google-services.json` (Android) & `GoogleService-Info.plist` (iOS) and place them in their respective folders.
-
 #### **Run the App**
 
 ```bash
-flutter run
+flutter pub get
+flutter run -d chrome --web-renderer canvaskit
 ```
 
----
+For testing on **two Chrome instances** (great for Firebase features):
 
-## **⚙️ Environment Variables**
-
-To use Firebase & AI services, set up the following `.env` file:
-
-```env
-FIREBASE_API_KEY=your_api_key
-GEMINI_AI_KEY=your_api_key
+```bash
+flutter run -d chrome --web-renderer canvaskit &
+flutter run -d chrome --web-renderer canvaskit
 ```
 
 ---
@@ -102,4 +90,10 @@ This project is **open-source** and follows the MIT License.
 
 ---
 
-Let me know if you want any tweaks! 🚀
+### **✅ Changes in this version:**
+
+- **No Firebase setup required** (open keys are already integrated).
+- **Quick start with just `flutter pub get && flutter run`**.
+- **Runs on two Chrome instances** for easy Firebase testing.
+
+Let me know if you want any further tweaks! 🚀
