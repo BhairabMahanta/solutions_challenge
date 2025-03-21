@@ -32,10 +32,10 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
-
+config.js
 # Symbolication related
 app.*.symbols
-
+firebase_config.json
 # Obfuscation related
 app.*.map.json
 

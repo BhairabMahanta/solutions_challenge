@@ -27,6 +27,7 @@ Widget buildWeatherCard(IconData icon, String label, String value) {
 
 Widget buildWeatherDetails(Map<String, dynamic> data) {
   final currentCondition = data['current_condition']?[0] ?? {};
+  print(currentCondition);
   final astronomy = data['weather']?[0]['astronomy']?[0] ?? {};
   List<String> alertsData = [];
 

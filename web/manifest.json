@@ -1,6 +1,6 @@
 {
-    "name": "solution",
-    "short_name": "solution",
+    "name": "new_solution",
+    "short_name": "new_solution",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
