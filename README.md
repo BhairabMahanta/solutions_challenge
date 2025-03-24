@@ -1,5 +1,3 @@
-Here's your **updated README** with simplified setup instructions, emphasizing that **no extra Firebase setup is needed** since open keys are used. 🚀
-
 ---
 
 # 🌱 **New Solution - Climate Awareness App**
