@@ -1,1 +1,33 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"climatesolution-48ea6","appId":"1:24961272906:android:86e1d84d16f44ac2cf2ab3","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"climatesolution-48ea6","configurations":{"android":"1:24961272906:android:86e1d84d16f44ac2cf2ab3","ios":"1:24961272906:ios:1d3adaf9b122c833cf2ab3","macos":"1:24961272906:ios:1d3adaf9b122c833cf2ab3","web":"1:24961272906:web:0358e03e8e41784dcf2ab3","windows":"1:24961272906:web:8ea9698155acbceecf2ab3"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "climatesolution-48ea6",
+          "appId": "1:24961272906:android:86e1d84d16f44ac2cf2ab3",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "climatesolution-48ea6",
+          "configurations": {
+            "android": "1:24961272906:android:86e1d84d16f44ac2cf2ab3",
+            "ios": "1:24961272906:ios:1d3adaf9b122c833cf2ab3",
+            "macos": "1:24961272906:ios:1d3adaf9b122c833cf2ab3",
+            "web": "1:24961272906:web:0358e03e8e41784dcf2ab3",
+            "windows": "1:24961272906:web:8ea9698155acbceecf2ab3"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

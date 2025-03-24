@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:new_solution/screens/carbon_screen.dart';
+import 'package:new_solution/screens/climate/core_sources.dart';
 import 'package:new_solution/screens/unloggedScreens/community_screen.dart';
 import 'package:new_solution/screens/unloggedScreens/dashboard_screen.dart';
 import 'package:new_solution/widgets/carbon_calculator/carbon_quiz.dart';
@@ -231,7 +232,12 @@ class FootprintCard extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12)),
               ),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => GHGSourcesScreen()),
+                );
+              },
               child: Text("View Report"),
             ),
           ),

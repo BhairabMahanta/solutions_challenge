@@ -82,7 +82,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
           SizedBox(height: 10),
           StatsSection(),
           SizedBox(height: 20),
-          _buildHeader("Daily Actions"),
+          _buildHeader("Daily Tasks"),
           SizedBox(height: 10),
           _buildScrollContainer(ActionsSection()),
           SizedBox(height: 20),
@@ -138,7 +138,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  _buildHeader("Daily Actions"),
+                  _buildHeader("Daily Tasks"),
                   SizedBox(height: 18),
                   ActionsSection(),
                   SizedBox(height: 18),
